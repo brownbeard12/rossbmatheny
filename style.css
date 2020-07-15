@@ -1,13 +1,13 @@
-.content-first {
-  grid-area: content-first;
+.item-first {
+  grid-area: item-first;
 }
 
-.content-second {
-  grid-area: content-second;
+.item-second {
+  grid-area: item-second;
 }
 
-.content-third {
-  grid-area: content-third;
+.item-third {
+  grid-area: item-third;
 }
 
 .text-first {
@@ -28,8 +28,8 @@
   grid-template-rows: auto;
   grid-template-areas:
     "header header header"
-    "text-first content-first content-first"
-    "content-second content-second text-second"
-    "text-third content-third content-third"
+    "text-first item-first item-first"
+    "item-second item-second text-second"
+    "text-third item-third item-third"
     "footer footer footer";
 }
