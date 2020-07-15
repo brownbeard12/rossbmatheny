@@ -2,7 +2,7 @@
   grid-area: item-first;
 }
 
-.item-first > img {
+.main > div img {
   max-width: 100%;
   display: block;
 }
