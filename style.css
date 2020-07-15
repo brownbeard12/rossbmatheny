@@ -1,7 +1,3 @@
-div {
-  align-content: center;
-}
-
 .item-first {
   grid-area: item-first;
 }
@@ -35,12 +31,10 @@ img {
 
 header {
   grid-area: header;
-  align-content: center;
 }
 
 footer {
   grid-area: footer;
-  align-content: center;
 }
 
 .main {
@@ -53,4 +47,5 @@ footer {
     "item-second item-second text-second"
     "text-third item-third item-third"
     "footer footer footer";
+  justify-items: center;
 }
