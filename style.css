@@ -1,1 +1,35 @@
+.content-first {
+  grid-area: content-first;
+}
 
+.content-second {
+  grid-area: content-second;
+}
+
+.content-third {
+  grid-area: content-third;
+}
+
+.text-first {
+  grid-area: text-first;
+}
+
+.text-second {
+  grid-area: text-second;
+}
+
+.text-third {
+  grid-area: text-third;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 66px 66px 66px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "text-first content-first content-first"
+    "content-second content-second text-second"
+    "text-third content-third content-third"
+    "footer footer footer";
+}
