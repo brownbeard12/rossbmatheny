@@ -33,7 +33,7 @@ footer {
 .main {
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: auto;
+  grid-template-rows: 150px;
   grid-template-areas:
     "header header header"
     "text-first item-first item-first"
