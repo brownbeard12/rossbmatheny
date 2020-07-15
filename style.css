@@ -4,6 +4,7 @@
 
 .item-first > img {
   max-width: 100%;
+  display: block;
 }
 
 .item-second {
