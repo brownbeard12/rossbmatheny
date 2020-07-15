@@ -2,6 +2,10 @@
   grid-area: item-first;
 }
 
+.item-first > img {
+  max-width: 100%;
+}
+
 .item-second {
   grid-area: item-second;
 }
