@@ -27,7 +27,7 @@ footer {
   grid-template-rows: 50px 300px 300px 300px 50px;
   grid-template-areas:
     "header header header"
-    "card card card"
+    "content content content"
     "footer footer footer";
   justify-items: center;
 }
