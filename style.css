@@ -1,5 +1,9 @@
-.item-first {
-  grid-area: item-first;
+.item-left {
+  grid-area: item-left;
+}
+
+.item-right {
+  grid-area: item-right;
 }
 
 img {
@@ -7,26 +11,6 @@ img {
   display: block;
   /* width: 100%; */
   max-height: 100%;
-}
-
-.item-second {
-  grid-area: item-second;
-}
-
-.item-third {
-  grid-area: item-third;
-}
-
-.text-first {
-  grid-area: text-first;
-}
-
-.text-second {
-  grid-area: text-second;
-}
-
-.text-third {
-  grid-area: text-third;
 }
 
 header {
@@ -40,12 +24,20 @@ footer {
 .main {
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 50px 150px 150px 150px 50px;
+  grid-template-rows: 50px 300px 300px 300px 50px;
   grid-template-areas:
     "header header header"
-    "text-first item-first item-first"
-    "item-second item-second text-second"
-    "text-third item-third item-third"
+    "card card card"
     "footer footer footer";
   justify-items: center;
 }
+
+.card {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "item-left item-right item-right";
+  justify-items: center;
+}
+
