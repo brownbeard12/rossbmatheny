@@ -28,7 +28,7 @@ footer {
 .main {
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 50px 300px 50px;
+  grid-template-rows: 50px 900px 50px;
   grid-template-areas:
     "header header header"
     "content content content"
@@ -39,7 +39,7 @@ footer {
 .card {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
+  grid-template-rows: 300px;
   grid-template-areas:
     "item-left item-right";
   justify-items: center;
