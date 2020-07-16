@@ -48,10 +48,10 @@ footer {
 
 .content {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 300px;
+  grid-template-columns: auto;
+  grid-template-rows: 300px 300px 300px;
   grid-template-areas:
-    "card card card";
+    "card";
   justify-items: center;
 }
 
