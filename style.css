@@ -19,10 +19,12 @@ img {
 
 header {
   grid-area: header;
+  margin: 5px;
 }
 
 footer {
   grid-area: footer;
+  margin: 5px;
 }
 
 .main {
@@ -46,6 +48,7 @@ footer {
     "item-left item-right";
   justify-items: center;
   border: solid black 1px;
+  margin: 2px 0px 2px 0px;
 }
 
 .content {
