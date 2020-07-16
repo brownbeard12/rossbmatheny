@@ -39,5 +39,6 @@ footer {
   grid-template-areas:
     "item-left item-right item-right";
   justify-items: center;
+  border: solid black 1px;
 }
 
