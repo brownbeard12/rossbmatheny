@@ -24,7 +24,7 @@ footer {
 .main {
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 50px 300px 300px 300px 50px;
+  grid-template-rows: 50px 300px 50px;
   grid-template-areas:
     "header header header"
     "content content content"
