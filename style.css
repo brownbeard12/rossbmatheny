@@ -1,3 +1,7 @@
+.content {
+  grid-area: content;
+}
+
 .item-left {
   grid-area: item-left;
 }
