@@ -35,6 +35,7 @@ footer {
     "footer footer footer";
   justify-items: stretch;
   text-align: center;
+  margin: 25px;
 }
 
 .card {
