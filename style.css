@@ -1,13 +1,34 @@
-.content {
-  grid-area: content;
+.grid {
+  position: relative;
 }
 
-.item-left {
-  grid-area: item-left;
+.item {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  z-index: 1;
+  background: #000;
+  color: #fff;
 }
 
-.item-right {
-  grid-area: item-right;
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 img {
@@ -17,46 +38,10 @@ img {
   max-height: 90%;
 }
 
-header {
-  grid-area: header;
-  margin: 5px;
-}
-
-footer {
-  grid-area: footer;
+header, footer {
   margin: 5px;
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 50px 900px 50px;
-  grid-template-areas:
-    "header header header"
-    "content content content"
-    "footer footer footer";
-  justify-items: stretch;
-  text-align: center;
   margin: 5px 25px 5px 25px;
 }
-
-.card {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 300px;
-  grid-template-areas:
-    "item-left item-right";
-  justify-items: center;
-  border: solid black 1px;
-  margin: 2px 0px 2px 0px;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-areas:
-    "card";
-  justify-items: stretch;
-}
-
