@@ -12,7 +12,7 @@ header, footer {
 .grid {
   position: relative;
   opacity: 0;
-  transition: opacity 0.1s linear 0.2s;
+  transition: opacity 0.1s linear 0.1s;
 }
 .images-loaded .grid {
   opacity: 1;
@@ -54,7 +54,7 @@ header, footer {
   top: 0;
   bottom: 0;
   text-transform: uppercase;
-  transition: opacity 0.3s linear 0.3s;
+  transition: opacity 0.1s linear 0.1s;
 }
 .images-loaded .loading {
   opacity: 0;
