@@ -10,7 +10,7 @@ header, footer {
 .grid {
   position: relative;
   opacity: 0;
-  transition: opacity 0.8s linear 1s;
+  transition: opacity 0.4s linear 1s;
 }
 .images-loaded .grid {
   opacity: 1;
@@ -36,6 +36,7 @@ header, footer {
 .item-content > img {
   display: block;
   border-radius: 6px;
+  max-width: 450px;
 }
 
 .loading {
@@ -48,7 +49,7 @@ header, footer {
   top: 0;
   bottom: 0;
   text-transform: uppercase;
-  transition: opacity 0.6s linear 0.4s;
+  transition: opacity 0.3s linear 0.4s;
 }
 .images-loaded .loading {
   opacity: 0;
