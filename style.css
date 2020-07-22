@@ -35,10 +35,11 @@ header, footer {
 }
 .item-content > img {
   display: block;
-  border-radius: 6px;
+  border-radius: 0px;
   border: solid #0D0D0D 10px;
   box-shadow: 10px 10px #A6A6A6;
-  max-width: 450px;
+  max-width: 350px;
+  margin: 20px;
 }
 
 .loading {
