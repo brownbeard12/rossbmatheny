@@ -5,6 +5,7 @@ header, footer {
 .main {
   margin: 5px 25px 5px 25px;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .grid {
