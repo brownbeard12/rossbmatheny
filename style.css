@@ -80,3 +80,8 @@ header, footer {
     height: auto;
     position: relative;
   }
+  
+  .grid {
+    margin-left: 0px;
+  }
+}
