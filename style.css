@@ -36,6 +36,8 @@ header, footer {
 .item-content > img {
   display: block;
   border-radius: 6px;
+  border: solid blue 3px;
+  box-shadow: 3px 3px 3px;
   max-width: 450px;
 }
 
