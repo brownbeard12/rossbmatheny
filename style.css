@@ -1,3 +1,15 @@
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d6d6d6;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
 header, footer {
   margin: 5px;
 }
@@ -13,6 +25,8 @@ header, footer {
   position: relative;
   opacity: 0;
   transition: opacity 0.1s linear 0.1s;
+  margin-left: 160px;
+  padding: 0px 10px;
 }
 .images-loaded .grid {
   opacity: 1;
