@@ -79,6 +79,7 @@ header, footer {
     width: 100%;
     height: auto;
     position: relative;
+    padding: 5px 5px;
   }
   
   .grid {
