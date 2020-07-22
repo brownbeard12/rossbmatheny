@@ -79,10 +79,18 @@ header, footer {
     width: 100%;
     height: auto;
     position: relative;
-    padding: 5px 5px;
+    padding: 5px 0px;
+  }
+  
+  .main {
+    margin: 0px;
   }
   
   .grid {
     margin-left: 0px;
+  }
+  
+  .item-content > img {
+    margin: 20px 25px 20px 5px;
   }
 }
