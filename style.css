@@ -61,7 +61,7 @@ a {
   position: relative;
   cursor: pointer;
 }
-.item-content > img {
+.item-content > img, .item-content > form {
   display: block;
   border-radius: 0px;
   border: solid #0D0D0D 10px;
