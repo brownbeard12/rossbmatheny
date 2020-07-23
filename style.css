@@ -21,6 +21,10 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
   margin: 5px 25px 5px 25px;
   text-align: center;
