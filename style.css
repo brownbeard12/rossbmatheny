@@ -61,13 +61,20 @@ a {
   position: relative;
   cursor: pointer;
 }
-.item-content > img, .item-content > form {
+.item-content > img {
   display: block;
   border-radius: 0px;
   border: solid #0D0D0D 10px;
   box-shadow: 10px 10px #A6A6A6;
   max-width: 350px;
   margin: 20px;
+}
+
+.item-content > form {
+  border: solid #0D0D0D 10px;
+  box-shadow: 10px 10px #A6A6A6;
+  margin: 20px;
+  padding: 20px;
 }
 
 .loading {
