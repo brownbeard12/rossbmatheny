@@ -48,7 +48,21 @@
   
   </div>
   
+<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.0/dist/muuri.min.js"></script>
   
+<script>
+var grid = new Muuri('.grid', {
+  dragEnabled: false,
+  layout: {
+    fillGaps: true
+  }
+});
+
+window.addEventListener('load', function () {
+  grid.refreshItems().layout();
+  document.body.classList.add('images-loaded');
+});
+</script>
   
 </body>
 
