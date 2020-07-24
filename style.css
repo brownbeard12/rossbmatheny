@@ -111,5 +111,6 @@ a {
   
   .item-content > img {
     margin: 20px 25px 20px 5px;
+    max-width: 85vw;
   }
 }
