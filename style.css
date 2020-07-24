@@ -114,3 +114,9 @@ a {
     max-width: 85vw;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .item-content > img {
+    max-width: 80vw;
+  }
+}
