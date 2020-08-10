@@ -1,14 +1,12 @@
 .header, .footer {
   text-align: center;
   display: block;
+  margin: 10px;
+  padding: 10px;
 }
 
 .league {
   font-family: 'League Spartan', sans-serif;
-}
-  
-.edo {
-  font-family: 'Edo', sans-serif;
 }
   
 a {
