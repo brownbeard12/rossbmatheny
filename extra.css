@@ -5,8 +5,20 @@
   padding: 10px;
 }
 
-.league {
+form {
+  text-align: center;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.league, .main {
   font-family: 'League Spartan', sans-serif;
+}
+
+.section {
+  padding: 5px;
+  border-bottom:  1px solid #222;
 }
   
 a {
