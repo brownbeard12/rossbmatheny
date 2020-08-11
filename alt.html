@@ -43,33 +43,37 @@
     <div class="container">
     <h5 class="section">Work</h5>
       <div class="center-content">
-        <div class=""><img src="/assets/sinobasamps_1.jpg" alt="Sinobas Amps"></div>
-        <div class=""><img src="/assets/nightstand2w.jpg" alt="Nightstand"></div>
-        <div class=""><img src="/assets/robot eye 5w.jpg" alt="Robot"></div>
+        <div class="u-max-full-width"><img src="/assets/sinobasamps_1.jpg" alt="Sinobas Amps"></div>
+        <div class="u-max-full-width"><img src="/assets/nightstand2w.jpg" alt="Nightstand"></div>
+        <div class="u-max-full-width"><img src="/assets/robot eye 5w.jpg" alt="Robot"></div>
       </div>
     </div>
     
     <div class="container">
     <h5 class="section">Contact</h5>
       <form name="contact" method="POST"><input type="hidden" name="form-name" value="contact">
-      <p>
-        <label>Your Name: <input type="text" name="name"></label>   
-      </p>
+        <div class="row">
+          <div class="six columns">
+            <label>Your Name:</label>
+            <input class="u-full-width" type="text" name="name">
+          </div>
+          
+          <div class="six columns">
+            <label>Your Email:</label>
+            <input class="u-full-width" type="email" name="email">
+          </div>
+        </div>
 
-      <p>
-        <label>Your Email: <input type="email" name="email"></label>
-      </p>
+        <label>Message:</label>
+        <textarea class="u-full-width" name="message"></textarea>
 
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
         <button type="submit">Send</button>
-      </p>
+
     </form>
   </div>
     
   <footer class="footer league">Copyright 2020.</footer>
+  
 </div>
 
 <!-- End Document
