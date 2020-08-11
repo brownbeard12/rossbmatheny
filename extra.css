@@ -39,3 +39,10 @@ ul {
 .center-content {
   text-align: center;
 }
+
+h2 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h2 { font-size: 2.4rem; }
+}
