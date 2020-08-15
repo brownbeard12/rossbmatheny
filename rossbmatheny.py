@@ -6,11 +6,11 @@ from dominate.tags import *
 
 doc = dominate.document(title="Ross B. Matheny | Engineer")
 
-loc_assets = "/Users/Matheny Properties/Documents/WEBSITES/ROSSBMATHENY"
-#loc_assets = ""
+#loc_assets = "/Users/Matheny Properties/Documents/WEBSITES/ROSSBMATHENY"
+loc_assets = ""
 
-img_dir = r'C:\Users\Matheny Properties\Documents\WEBSITES\ROSSBMATHENY\assets'
-#img_dir = 
+#img_dir = r'C:\Users\Matheny Properties\Documents\WEBSITES\ROSSBMATHENY\assets'
+img_dir = "/assets"
 
 with doc.head:
 	meta(charset='utf-8')
