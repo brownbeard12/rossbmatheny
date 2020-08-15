@@ -10,7 +10,7 @@ doc = dominate.document(title="Ross B. Matheny | Engineer")
 loc_assets = ""
 
 #img_dir = r'C:\Users\Matheny Properties\Documents\WEBSITES\ROSSBMATHENY\assets'
-img_dir = "/assets"
+img_dir = "/assets/"
 
 with doc.head:
 	meta(charset='utf-8')
