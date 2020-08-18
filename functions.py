@@ -26,3 +26,19 @@ def img_loop(img_dir):
 				img_name = img_name[2:]
 			with div():
 				img(_class='u-max-full-width', src=entry.path, alt=img_name.capitalize())
+
+def page_head():
+	with doc.head:
+		meta(charset='utf-8')
+		meta(name='description', content="Ross B. Matheny's Website")
+		meta(name='author', content="Ross B. Matheny")
+		meta(name='viewport', content="width=device-width, initial-scale=1")
+		link(href="https://fonts.cdnfonts.com/css/league-spartan", rel="stylesheet")
+		link(rel="stylesheet", href="normalize.css")
+		link(rel="stylesheet", href="skeleton.css")
+		link(rel="stylesheet", href="extra.css")
+		link(rel="icon", type="image/png", href="assets/fav/favicon.ico")
+		link(rel="apple-touch-icon", sizes="180x180", href="assets/fav/apple-touch-icon.png")
+		link(rel="icon", type="image/png", sizes="32x32", href="assets/fav/favicon-32x32.png")
+		link(rel="icon", type="image/png", sizes="16x16", href="assets/fav/favicon-16x16.png")
+		link(rel="mask-icon", href="assets/fav/safari-pinned-tab.svg", color="#5bbad5")
