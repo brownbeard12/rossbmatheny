@@ -27,7 +27,7 @@ def img_loop(img_dir):
 			with div():
 				img(_class='u-max-full-width', src=entry.path, alt=img_name.capitalize())
 
-def page_head():
+def page_head(doc):
 	with doc.head:
 		meta(charset='utf-8')
 		meta(name='description', content="Ross B. Matheny's Website")
