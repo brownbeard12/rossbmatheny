@@ -13,7 +13,7 @@ loc_assets = ""
 #img_dir = r'C:\Users\Matheny Properties\Documents\WEBSITES\ROSSBMATHENY\assets'
 img_dir = "assets/"
 
-functions.page_head()
+functions.page_head(doc)
 	
 with doc:
 	attr(lang="en")
