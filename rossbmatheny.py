@@ -31,7 +31,7 @@ with doc:
 		with div(_class='container'):
 			h2('Contact', _class="section")
 			
-			with form(name="contact", method="POST"):
+			with form(name="contact", method="POST", data-netlify="true"):
 				input(type="hidden", name="form-name", value="contact")
 				with div(_class="row"):
 					with div(_class="six columns"):
