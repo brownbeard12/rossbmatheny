@@ -4,6 +4,7 @@
 html {
     min-height: 100%;
 	font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
 	color: #2D3240;
 }
 
@@ -33,6 +34,7 @@ body {
 
 .serif {
     font-family: 'DM Serif Text', serif;
+    font-weight: normal;
 }
 
 main {
