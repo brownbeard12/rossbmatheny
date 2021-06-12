@@ -165,10 +165,10 @@ a, a:link, a:visited {
     
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 376px) {
     
     h2 {
-        font-size: 1.15rem;
+        font-size: 1.25rem;
     }
 
     
