@@ -71,7 +71,7 @@ a, a:link, a:visited {
 .rail::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 4px;
     background-color: #2948a9;
     top: 13%;
     bottom: 12%;
