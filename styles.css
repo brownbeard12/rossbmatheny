@@ -80,8 +80,8 @@ a, a:link, a:visited {
 }
 
 .section-2::after {
-    top: 15%;
-    bottom: 18%;
+    top: 18%;
+    bottom: 17%;
 }
 
 .card {
