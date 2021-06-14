@@ -76,7 +76,7 @@ a, a:link, a:visited {
     top: 13%;
     bottom: 12%;
     left: 35px;
-    margin-left: -3px;
+    margin-left: -2px;
 }
 
 .section-2::after {
@@ -156,6 +156,7 @@ a, a:link, a:visited {
     
     .rail::after {
         left: 50%;
+	margin-left: -2px;
     }
     
     .right::after {
