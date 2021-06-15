@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 h4, h5, p {
     margin: 5px;
-    font-weight: 400;
+    -webkit-font-feature-settings: "kern" 1;
 }
 
 a, a:link, a:visited {
