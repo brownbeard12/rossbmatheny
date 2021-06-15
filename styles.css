@@ -4,7 +4,7 @@
 html {
     min-height: 100%;
     font-family: 'DM Sans', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     color: #2D3240;
     text-rendering: optimizeLegibility;
 }
@@ -53,6 +53,7 @@ main {
 h1, h2, h3 {
     margin: 10px;
     -webkit-font-feature-settings: "kern" 1;
+    font-weight: 500;
 }
 
 h4, h5, p {
