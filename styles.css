@@ -3,14 +3,14 @@
 
 html {
     min-height: 100%;
-	font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-	color: #2D3240;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    color: #2D3240;
 }
 
 * {
     box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -38,10 +38,10 @@ body {
 }
 
 main {
-	max-width: 500px;
-	background: #fafafaeb;
-	border-radius: 2px;
-	margin: 15px;
+    max-width: 500px;
+    background: #fafafaeb;
+    border-radius: 2px;
+    margin: 15px;
     margin-left: auto;
     margin-right: auto;
     padding: 3px;
