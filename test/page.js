@@ -6,9 +6,9 @@ let rail = document.querySelector('.rail');
         var ind;
         
         if (self.target.className === 'content') {
-            self.target.velocity({ 'border-color' : ['red', 'white']});
+            self.target.velocity({ 'border-color' : ['red', 'white']}, {'duration' : '100'});
         } else if (self.target.parentNode.className === 'content') {
-            self.target.parentNode.velocity({ 'border-color' : ['red', 'white']});
+            self.target.parentNode.velocity({ 'border-color' : ['red', 'white']}, {'duration' : '100'});
         };
         
         myCards.forEach( function(myCard, index) {
@@ -23,7 +23,7 @@ let rail = document.querySelector('.rail');
             if (i === ind) {
                 continue;
             }
-            myCards[i].velocity({ 'border-color' : 'white' })
+            myCards[i].velocity({ 'border-color' : 'white' }, {'duration' : '100'})
         };            
             
 
