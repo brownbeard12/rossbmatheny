@@ -1,0 +1,171 @@
+html {
+    min-height: 100%;
+    font-family: 'dm_sansregular', Arial, sans-serif;
+    color: #2D3240;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header, footer, main {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+    justify-content: center;
+    background: rgb(118,211,255);
+    /*background: linear-gradient(0deg, rgba(118,211,255,1) 0%, rgba(199,237,255,1) 100%);*/
+    background: linear-gradient(0deg, #e4e4e4 0%, #efefef 100%);
+    /*background-color: white;*/
+    height: 100%;
+}
+
+.serif {
+    font-family: 'dm_serif_textregular', Georgia, serif;
+}
+
+main {
+    max-width: 500px;
+    background: #fafafaeb;
+    border-radius: 2px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+h1, h2, h3 {
+    margin: 10px;
+    font-weight: 400;
+}
+
+h4, h5, p {
+    margin: 5px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #2D3240;
+}
+
+.rail {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rail::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: #2d3240;
+    top: 13%;
+    bottom: 12%;
+    left: 35px;
+    margin-left: -2px;
+}
+
+.section-2::after {
+    top: 18%;
+    bottom: 16%;
+}
+
+.card {
+    padding: 10px 35px;
+    padding-left: 50px;
+    padding-right: 25px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 22.5px;
+    background-color: white;
+    border: 4px solid #2d3240;
+    top: 40%;
+    border-radius: 50%;
+    z-index: 1;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.content {
+    padding: 5px 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 2px;
+    border: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    text-align: left;
+    max-width: 509px;
+}
+
+.content:hover {
+    /*border: 3px solid black;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+@media screen and (min-width: 700px) {
+    
+    main {
+        max-width: 1000px;
+    }
+    
+    h1 {
+        font-size: 3.0rem;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .card::after {
+        left:auto;
+        right: -12px;
+    }
+    
+    .left {
+        left: 0;
+        padding-right: 15px;
+        padding-left: 25px;
+    }
+
+    .right {
+        left: 50%;
+        padding-left: 15px;
+    }
+    
+    .rail::after {
+        left: 50%;
+	margin-left: -3px;
+    }
+    
+    .right::after {
+        left: -13px;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    
+    h2 {
+        font-size: 1.15rem;
+    }
+
+    
+}
