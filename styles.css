@@ -53,9 +53,18 @@ h4, h5, p {
     margin: 5px;
 }
 
+h5.text-center {
+	text-align: center;
+	font-size: 0.9em;
+}
+
 a, a:link, a:visited {
     text-decoration: none;
     color: #2D3240;
+}
+
+ul {
+    padding-left: 10px;
 }
 
 .rail {
@@ -120,6 +129,19 @@ a, a:link, a:visited {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
+.content-detail {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border: 1px solid #737373;
+    left: 50%;
+    width: 92%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
 @media screen and (min-width: 700px) {
     
     main {
@@ -157,6 +179,13 @@ a, a:link, a:visited {
     
     .right::after {
         left: -13px;
+    }
+    
+    .content-detail {
+	position: fixed;
+    top: 205px;
+    overflow-y: auto;
+    transform: translate(-50%, 0);
     }
     
 }
