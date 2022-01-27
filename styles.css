@@ -22,9 +22,8 @@ footer {
 body {
     justify-content: center;
     background: rgb(118,211,255);
-    /*background: linear-gradient(0deg, rgba(118,211,255,1) 0%, rgba(199,237,255,1) 100%);*/
-    background: linear-gradient(0deg, #e4e4e4 0%, #efefef 100%);
-    /*background-color: white;*/
+    /*background: linear-gradient(0deg, #e4e4e4 0%, #efefef 100%);*/
+    background: #c3c3c3;
     height: 100%;
 }
 
